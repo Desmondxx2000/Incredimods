@@ -1,0 +1,53 @@
+.music-img {
+        width: 100px;
+        border-radius: 10px;
+        float: left;
+        margin-right: 15px;
+}
+
+.music {
+        font-weight: bold;
+}
+
+.download {
+        color: orange;
+        font-style: normal;
+}
+
+em {
+        color: orange;
+        font-style: normal;
+}
+
+.mod-img {
+        width: auto;
+        height: 80;
+        border-radius: 35px
+}
+
+@media (max-width: 768px) {
+
+    .header-nav { 
+
+        flex-direction: column;
+
+    }
+
+    .main-content img { 
+
+        width: 100%; 
+
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .main-content { 
+
+        display: flex;
+
+    }
+
+}
+
